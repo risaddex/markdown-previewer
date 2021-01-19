@@ -1,0 +1,34 @@
+$main-color: rgba(78, 92, 216, 0.377);
+
+#app {  
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.area {
+  background-color: rgba(226, 59, 73, .541);
+  text-transform: uppercase;
+  font-weight: bold;
+  color: azure;
+  text-align: center;
+  margin-top: calc(5vh - 20px);
+  border-radius: 5px 5px 0 0;
+}
+
+.default-area {
+  background-color: $main-color;
+  margin-bottom: 2.5vh;
+  height: calc(95vh - 20px);
+  width: 450px;
+  overflow-y: auto;
+  padding: 10px;
+  border-radius: 0 0 5px 5px;
+
+  img {
+    display: flex;
+    height: auto;
+    width: 100px;
+  }
+}
